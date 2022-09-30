@@ -3,7 +3,6 @@ import {Task} from '../../Task'
 import {TASKS} from '../../mock-task'
 
 
-
 @Component({
   selector: 'app-tasks',
   templateUrl: './tasks.component.html',
