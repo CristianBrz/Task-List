@@ -1,35 +1,34 @@
 {
-    "tasks": [
-        {
-            "id": 1,
-            "text": "Terminar primer modulo de Angular",
-            "day": "Agosto 5 a las 12:00 Hs",
-            "reminder": true
-        },
-        {
-            "id": 2,
-            "text": "Hacer las compras para la cena",
-            "day": "Agosto 5 a las 17:00 Hs",
-            "reminder": true
-        },
-        {
-            "id": 3,
-            "text": "Investigar sobre Boostrap",
-            "day": "Agosto 5 a las 19:00 Hs",
-            "reminder": false
-        },
-        {
-            "id": 4,
-            "text": "dormir un poco",
-            "day": "Agosto 5 a las 23:00 Hs",
-            "reminder": false
-        },
-        {
-            "id": 5,
-            "text": "terminar el proyecto Argentina Programa",
-            "day": "Octubre 10 a las 22:00 Hs",
-            "reminder": true
-        }
-
-    ]
+  "tasks": [
+    {
+      "id": 1,
+      "text": "Investigar sobre Boostrap",
+      "day": "Agosto 5 a las 19:00 Hs",
+      "reminder": true
+    },
+    {
+      "id": 2,
+      "text": "Dormir un poco",
+      "day": "Octubre 5 a las 23:00 Hs",
+      "reminder": true
+    },
+    {
+      "id": 3,
+      "text": "Terminar Portfolio",
+      "day": "Octubre 10 a las 22:00 Hs",
+      "reminder": true
+    },
+    {
+      "text": "Matar a los vecinos ",
+      "day": "Hoy",
+      "reminder": true,
+      "id": 4
+    },
+    {
+      "text": "Matar a los vecinos 2",
+      "day": "Hoy",
+      "reminder": true,
+      "id": 5
+    }
+  ]
 }
