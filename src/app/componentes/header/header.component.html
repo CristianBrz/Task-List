@@ -5,8 +5,7 @@
         color="{{showAddTask ? 'rgba(255,0,0)' : 'rgba(10,160,20)'}}"
         text="{{showAddTask ? 'Close Task' : 'Add Task'}}"
         (btnClick)="toggleAddTask()"
-    >
-    </app-boton>
-
-
+        *ngIf="hasRoute('/')"
+    ></app-boton>
+    
 </header>

@@ -13,6 +13,7 @@ import { TasksComponent } from './componentes/tasks/tasks.component';
 import { TaskItemsComponent } from './componentes/task-items/task-items.component';
 import { AddTaskComponent } from './componentes/add-task/add-task.component';
 import { AboutComponent } from './componentes/about/about.component';
+import { FooterComponent } from './componentes/footer/footer.component';
 
 const appRoutes: Routes = [
   {path: '', component: TasksComponent},
@@ -27,7 +28,8 @@ const appRoutes: Routes = [
     TasksComponent,
     TaskItemsComponent,
     AddTaskComponent,
-    AboutComponent
+    AboutComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
